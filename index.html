@@ -169,6 +169,7 @@ ctrl+f för att snabbt hitta de platser du behöver ändra på.-->
                 <br /> •	Genomför du hela jakten kommer du gå cirka 3 km. <br />
                 
                 <br /> •	Jakten tar ca 1,5 timme att genomföra. <br />
+                <br /> •	När du slutfört alla uppdragen väntar ett pris. <br />
                 </h3>
               </div>
               
@@ -186,24 +187,28 @@ ctrl+f för att snabbt hitta de platser du behöver ändra på.-->
             <img src="./img/bildensnamn.filformat">
             T.ex: <img src="./img/coolbild.jpeg">-->
 
-            <p>Katten katja och hunden Måns är två bästa vänner som bor på statsbiblioteket i karlskrona. På biblioteket är de populära bland alla, speciellt bland barnen. Katja och Måns kan hjälpa en med vad som helst och det uppskattas mycket. <br />
+            <p>Katten katja och hunden Måns är två bästa vänner som bor på Stadsbiblioteket i Karlskrona. På biblioteket är de populära bland alla, speciellt bland barnen. Katja och Måns kan hjälpa en med vad som helst och det uppskattas mycket. <br />
               <br /> En dag försvinner plötsligt Katja och ingen vet vart hon har tagit vägen. Måns blev orolig för sin kära bästa vän då de aldrig varit utanför biblioteket, så tanken av att hon kanske var borta för alltid skrämde honom. <br />
               <br /> Hunden Måns tänker kämpa för att hitta Katten Katja men han behöver även din hjälp. Kan du hjälpa honom hitta henne? <br />
             </p>
 
             <div class="col-lg-12 text-center">
-              <h2 class="section-subheading"><br />Ungefär såhär kommer rundan se ut:</h2> <br />
+              <h2 class="section-subheading"><br />Katten har lämnat spår på alla dessa platser, så ungefär såhär kommer rundan se ut:</h2> <br />
             </div>
 
             <img src="./img/Skärmbild trossö.jpg">-->
             <br />
             <br />
             <br />
+            <div class="col-lg-12 text-center">
+              <h2 class="section-heading">Jakten startar</h2>
+            </div>
+
             <h3>Uppgift 1</h3>
             <!--Här nedan beskriver du vad uppdraget skall vara-->
             <p>
-            Gå ner till Amiralitetslekparken som ligger bredvid Rosenfeldtskolan för att kunna besvara första frågan. <br />
-            <br /> Lekparken i Amiralitetsparken skapades 2013 och döptes av Rosenfeldtskolan. Vad finns det för olika föremål i lekparken som föreställer djur?
+            Det första spåret leder till Amiralitetslekparken då folk har sett en katt springandes där. Gå ner till Amiralitetslekparken som ligger bredvid Rosenfeldtskolan för att kunna besvara första frågan. <br />
+            <br /> Lekparken i Amiralitetsparken skapades 2013 och döptes av Rosenfeldtskolan. Det finns olika föremål i lekparken som föreställer djur. Kan du nämna ett?
             </p>
           </div>
         </div>
@@ -313,7 +318,7 @@ ctrl+f för att snabbt hitta de platser du behöver ändra på.-->
       if (answer == "svar1" || answer == "svar2" answer == "svar3" )
       */
 
-      if (answer == "två sälar och en nyckelpiga" || answer == "nyckelpiga och sälar" || answer == "en nyckelpiga och två sälar" || answer == "sälar och nyckelpiga" || answer == "nyckelpiga sälar" || answer == "sälar nyckelpiga" ) { /*Kom ihåg att svaret skall skrivas med gemener*/
+      if (answer == "nyckelpiga" || answer == "sälar" || answer == "säl" || answer == "nyckelpigor" ) { /*Kom ihåg att svaret skall skrivas med gemener*/
           return true;
       }else{
         document.getElementById("answer").value ="";
